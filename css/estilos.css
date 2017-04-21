@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.estilo {
+	width: 100%;
+	height: 100%;
+	border:1px solid red;
+	box-sizing: border-box;
+	padding: 50px;
+}
+
+img {
+	width: 150px;
+}
+/* alineación no. 1 ··································*/
+.contenedor-1 {
+	text-align: center;
+}
+
+/* alineación no. 2 ··································*/
+.contenedor-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* alineación no. 3 ··································*/
+.contenedor-3 img  {
+	display: block;
+    margin: auto;
+}
+.contenedor-3 p {
+	text-align: center;
+}
+
+/* alineación no. 3 ··································*/
+.contenedor-4 {
+	height: 300px;
+	position: relative;
+}
+.contenedor-4 p {
+	position: absolute;
+	margin: 0;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+.contenedor-4 img {
+	display: block;
+    margin: auto;
+}
